@@ -1,0 +1,134 @@
+* {
+    -webkit-user-select: none;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font: 14px sans-serif;
+    background-color: #EAEAEA;
+    font-family: Verdana;
+    line-height:1.3;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+.header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 44px;
+    background: #434750;
+    color: #FFFFFF;
+    border-bottom: 1px solid #fff;
+}
+
+.header h1 {
+    font-size: 20px;
+    line-height: 44px;
+    text-align: center;
+    margin: 0px;
+}
+
+.header .btn {
+    padding: 0px 12px 0px 12px;
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    line-height: 32px;
+    background-color: #979B9D;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+
+/*.header a:active {
+    color: #fff;
+    background-color: #000;
+} */
+
+.scroller {
+    position: absolute;
+    overflow: auto;
+    top: 45px;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    padding:10px;    
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list li {
+    position: relative;
+    padding: 20px 10px;
+    border-bottom: 1px solid #BCBCBC;
+}
+
+.list li > a {
+    position: relative;
+    padding: inherit;
+    margin: -20px -10px;
+}
+
+.list li > a:active {
+    background-color: #D7D7D7;
+}
+
+.robot {
+    padding: 12px;
+}
+
+.robot>img {
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+.robot > p {
+    clear: both;
+}
+
+/* Loading Screen */
+
+#loading {
+position: absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background: #000;
+display:none;
+z-index: 9999;
+opacity:0.5;
+}
+
+#loading img {
+  	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-10px;
+	margin-top:-10px;
+}
+
+/* Menu */
+#main_menu {float:left; width:500px; height:400px; top:0; left:0;}
+#main_menu ul {margin:10px 0 0 10px; padding:0; border:none;}
+#main_menu ul>li {float:left; width:140px; height:100px; display:block; margin-right:10px; margin-bottom:10px; border:none; background:none;}
+#main_menu li>a {text-decoration:none; border:none; background:none;}
+
+/* BX Styles */
+.bxslider_menu h1 {margin-top: -5px; margin-right:20px; font-size: 140%;}
+
+
+
