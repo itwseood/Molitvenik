@@ -3,13 +3,13 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.motokio.fully-booked-ultra"
+        id        = "com.motokio.molitvenik"
         version   = "1.0.0">
 
-    <name>Fully Booked Ultra</name>
+    <name>Православен молитвеник</name>
 
     <description>
-        Fully Booked app developed on top of mustache.js templates.
+        Православен молитвеник. Всички текстове са със запазени права на Българска Патриаршия (http://www.bg-patriarshia.bg)
     </description>
 
     <author href="http://itws.eu" email="corporate@itws.eu">
